@@ -1,0 +1,258 @@
+
+\documentclass[a4paper,10pt,oneside]{article}
+%\documentclass[letterpaper,10pt,oneside]{article}
+
+% Do not stop on errors during compilation.
+\nonstopmode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVTitle}{Taylor King resume}
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={Taylor King},
+pdfsubject={http://github.com/taylorking},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{Taylor King}
+
+\begin{subtitle}
+1399 Park Ave. \#8E New York, NY 10029
+\par
+\href{mailto:taylorbradleyking@gmail.com}
+{taylorbradleyking@gmail.com}
+\,\BulletSymbol\,
++1\,(704)\,877-6125
+\,\BulletSymbol\,
+\href{http://github.com/taylorking}
+{http://github.com/taylorking}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Employment}
+{Employment} 
+{PDF: Employment} 
+\textbf{\href{http://bloomberg.com}{Bloomberg LP}} New York, NY
+\newline Senior Software Engineer: New Issue Corporate Bonds\hfill\DatestampYMD{2018}{05}{04} -- Present
+\begin{detail}
+\BulletItem Lead redesign of NIMY realtime bond monitoring backend with Redis and Python
+\BulletItem Implemented buy side corporate bond alerting 
+\BulletItem Designed C++ framework for file attachments on user new issue messages 
+\BulletItem Designed new issue bond insights
+\BulletItem Built new issue bond functionality in IB chat with R+ javascript framework
+\BulletItem Maintained legacy C++ / Fortran services and functions 
+\BulletItem Implemented sell side deal workflow enhancements in Rapid javascript ui framework
+\BulletItem Conducted 50+ technical interviews
+\end{detail}
+\SmallEntryGap
+\begin{detail}
+Fixed Income working groups
+\BulletItem Lead continuous deployment working group
+\BulletItem Implemented CI/CD features with bloomberg tooling in jenkins pipelines
+\BulletItem Developed a set of best practices used when releasing software in the financial analytics department
+\BulletItem Wrote a set of guidelines for migrating from bloomberg python2.7 to vanilla python3
+\BulletItem Presented on new CD functionality and best practices
+\BulletItem Developed new deployment monitoring function GOOD<GO> with RPaaS javascript framework
+\BulletItem Helped promote adoption of managed kubernetes based BPaaS infrastructure
+\end{detail}
+
+
+%\BulletItem Developed a real time corporate bond messaging system used by %1500+ market players every day
+%\BulletItem Lead continuous deployment working group
+%\BulletItem Implemented new continuous deployment features in Jenkins tooling %to allow for automated rollouts, Used by 130 engineers. 
+%\BulletItem Ported existing C++ services to build with CMake to improve %developer workflow
+%\BulletItem Improved python developer workflow by setting up PyPI artifactory %and associated tooling
+%\BulletItem Implemented various workflow enhancements for New Issues %Bloomberg terminal functions
+%\BulletItem Redesigned C++ record authorization framework for private new %issue bond messaging
+%\BulletItem Maintained legacy C++/C/Fortran services
+%\BulletItem Ensured adequate unit test coverage across team codebases with %coverage metrics
+%\BulletItem Conducted 50+ Technical interviews
+
+\EntryGap{}
+\textbf{\href{http://birchbox.com}{Birchbox}} New York, NY
+\newline Software Engineer: International\hfill\DatestampYMD{2017}{10}{10} -- \DatestampYMD{2018}{05}{04}
+\begin{detail}
+\BulletItem Built a shipment tracking integration for boxes shipped with hermes in the UK
+\BulletItem Wrote a script to update box personalization questions and output for the data science team to generate box sample assortments
+\BulletItem Implemented a marketing campaign to give free shipping to customers who completed surveys for all of the samples in their monthly box
+\BulletItem Built an integration with existing fulfillment systems to deliver packages to Hermes pickup locations
+\BulletItem Updated an old payment system to build and run with Java 8 in order to support TLS v1.2
+\end{detail}
+\EntryGap{}
+\textbf{\href{https://ibm.com}{IBM} } Raleigh, NC
+\newline Software Engineer: Bluemix API Connect \hfill \DatestampYMD{2016}{05}{15} -- \DatestampYMD{2017}{10}{[10}
+\begin{detail}
+\BulletItem Built a node module to provide a consistent interface for CRUD operations between redis and cassandra
+\BulletItem Ported existing Mesos deployments to Kubernetes
+\BulletItem Built a wrapper with luajit ffi to provide an openresty interface for calling into the CJOSE library
+\BulletItem Improved routing performance in the OpenWhisk API Gateway with a compact prefix tree
+\BulletItem Worked with Adobe to integrate OAuth authentication and authorization support into the open source OpenWhisk API Gateway
+\BulletItem Designed and Developed Bluemix angular front end components
+\BulletItem Developed a proof of concept for an OpenWhisk based serverless API developer portal
+\BulletItem Wrote scripts to bootstrap the Percona XtraDB cluster in the Drupal portal
+% \BulletItem Worked to document the partition tolerance of Galera MySQL clustering software
+\end{detail}
+\SmallEntryGap{}
+\begin{detail}
+Managers Choice Award: Put the client first\hfill\DatestampYMD{2017}{8}{9}
+\BulletItem Awarded for supporting a sponsoring client and developing a better support relationship
+\end{detail}
+\SmallEntryGap{}
+\begin{detail}
+Managers Choice Award: Unite to get it done now\hfill\DatestampYMD{2016}{11}{02}
+\BulletItem Awarded for working with others to rapidly develop a proof of concept for API Connect monetization
+\end{detail} 
+
+%\EntryGap
+%\textbf{\href{https://www.zomato.com/}{Zomato} } Charlotte, NC\newline
+%iOS Development\hfill
+%\DatestampYMD{2015}{05}{15} -- \DatestampYMD{2015}{11}{01}
+%\begin{detail} 
+%\BulletItem
+%Assisted in developement of realtime multi device state persistence with websockets
+%\BulletItem
+%Improved user experience by adding a heart beat check, alerted the user when internet connectivity was not available 
+%\BulletItem
+%Built an iOS view controller to show analytics data for restaurant reservations over time
+%\end{detail}
+
+\EntryGap
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{http://appstate.edu}
+{\textbf{Appalachian State University}}
+Boone, NC\hfill
+
+\SmallEntryGap
+Bachelors in
+\href{http://cs.appstate.edu}
+{Computer Science}
+\hfill
+\DatestampYMD{2012}{6}{26} --
+\DatestampYMD{2016}{5}{15}
+\begin{detail}
+\BulletItem
+Member Appalachian State University Academy of Science 2012-2014
+\BulletItem
+Research areas:
+Image Processing
+\end{detail}
+% Audio Processing
+%\end{detail}
+%\SmallEntryGap
+%\textbf{\href{http://vthacks.com}{VTHacks}}
+%\SmallEntryGap
+%\href{https://github.com/taylorking/CoinCraft}{Coincraft: Minecraft for bitcoin}\hfill\DatestampYMD{2015}{3}{23}
+%\begin{detail}
+%\BulletItem
+%Won Third place
+%\BulletItem
+%Won Bookholders Bitcoin prize
+%\end{detail}
+%%\textbf{\href{http://hacknc.com/}{HackNC}}
+%%\SmallEntryGap
+%%\href{https://github.com/jonjonsonjr/boxwich}{Boxwich: sudo makemeasandwich }\hfill\DatestampYMD{2014}{10}{31}
+%%\begin{detail}
+%%\BulletItem
+%%Won Third place
+%%\end{detail} 
+
+
+%%%%%%%%%%%%https://www.overleaf.com/project/5554a57a7de6a63d74657534
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\section
+{Languages and Frameworks}
+{Languages and Frameworks}
+{PDF:Languages and Frameworks}
+\textbf{Proficient: } C/C++, Java, JavaScript (Node.js), Python, Lua (OpenResty)
+\SmallEntryGap
+\textbf{Familiar: } Ruby (Rails), Objective-C, Clojure, .NET
+\SmallEntryGap
+\textbf{Tools: } CMake, pytest, gtest/gmock, Redis, AWS, MySQL
+\EntryGap
+%\section
+%{Personal Projects}
+%{Personal Projects}
+%{PDF:Personal Projects}
+%\textbf{\href{http://github.com/taylorking/lua-resty-cjose}{lua-resty-cjose}} (OpenResty)
+%\par
+%An OpenResty module on OPM providing a LuaJIT FFI based interface to call into dynamically linked \href{http://github.com/cisco/cjose}{libcjose} and perform JWS validation
+%\SmallEntryGap{}
+%\textbf{\href{http://github.com/apache/incubator-openwhisk-apigateway}{OpenWhisk API Gateway}} (OpenResty) 
+%\par
+%A full featured API gateway written in C and Lua with OpenResty on Nginx
+
+%
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+%\section
+%{Interests}
+%{Interests}
+%{PDF:Interests}
+%Chemistry,
+%Statistics, 
+%Digital Photography,
+%Typography,
+%Chess
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\end{body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+%\begin{flushright}
+%\scriptsize%
+%\hspace{2.0mm}\null
+%\end{flushright}
+
+%\label{LastPage}~
+\end{document}
+    
